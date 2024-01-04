@@ -2,19 +2,93 @@ body{
   background-image: url("background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top:0px;
+}
+#cursor{
+ cursor: url(https://ani.cursors-4u.net/nature/nat-11/nat1047.cur), auto !important;
 }
 
 #body-wrapper {
-  margin:auto;
-  width:1200;
+  margin:0 auto;
+  width: 1200px;
+  /*height: 410px;*/
+  display: flex; /* Make parent a flex-container */
+  justify-content: center; /* Centers child horizontally */
+  flex-direction: column;
+  }
+
+#patrat{
+
+  margin-top:25px;
+  background-image: url("bkg.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  text-align: center;
+	color:rgb(68, 0, 51);
+  border:1px solid rgb(142, 0, 113);
+  width: 100%;
+}
+#icons{
+  flex-direction: row;
+  display: flex;
+  justify-content: right;
+  margin-top: 0;
+  margin-bottom: 5px;
+  list-style-type: none;
+}
+.list-icons{
+  width: 24px;
+  height: 24px;
+  
+}
+#continut{
+  background-color: rgb(255, 196, 204);
+  width: 100%;
+  border: 1px solid rgb(68, 0, 51);
+}
+
+
+#menu-box{
+
+  background-color: rgb(255, 165, 177);
+  border: 1px solid rgb(68, 0, 51);
+  height:70px;
+  
+  
+}
+
+#button1{
+
+  background-color: rgb(255, 196, 204);
+  color: rgb(211, 100, 159);
+  padding: 12px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-right:200px;
+}
+  #button2{
+
+    background-color: rgb(255, 196, 204);
+    color: rgb(211, 100, 159);
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right:200px;
 
 
 }
+#button3{
 
-#patrat{
-	
-box-shadow: 10px 5px 5px red;
-  text-wrap: wrap;
-	color:red;
-	background-color:green;
+  background-color: rgb(255, 196, 204);
+  color: rgb(211, 100, 159);
+  padding: 12px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-right:200px;
 }
