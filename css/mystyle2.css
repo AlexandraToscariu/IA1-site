@@ -1,12 +1,14 @@
-
 body{
     background-image: url("background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     margin-top:0px;
   }
-
-#body-wrapper {
+  #cursor{
+   cursor: url(https://ani.cursors-4u.net/nature/nat-11/nat1047.cur), auto !important;
+  }
+  
+  #body-wrapper {
     margin:0 auto;
     width: 1200px;
     display: flex; 
@@ -174,49 +176,9 @@ body{
     cursor: pointer;
   
   }
-
-  #container-cercuri
-  {
-    display: flex;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 40px;
-    justify-content: space-around;
-    margin-bottom: 40px;
-
-  }
-  .cerc{
-    border: 1px solid rgb(68, 0, 51);
-    border-radius:100% 100% 0% 0%;
-    width: 280px;
-    height: 280px;
-  }
-
-  .cerc1
-  {
-    background-image: url("erikaadult.jpg");
-  }
-  .cerc2
-  {
-    background-color: rgb(255, 165, 177);
-  }
-  .cerc3
-  {
-    background-color: rgb(255, 165, 177);
-  }
   
-  .cerc-jos
-  {
-    width: 280px;
-    height: 160px;
-    background-color: rgb(255, 165, 177);
-    border-bottom: 1px solid rgb(68, 0, 51);
-    border-left:1px solid  rgb(68, 0, 51);
-    border-right:1px solid  rgb(68, 0, 51);
-  }
-
-
-
+  
+  
   .footer
   {
     margin-bottom: 20px;
@@ -233,50 +195,63 @@ body{
   
    }
 
+   #descriere
+   {
+     font-size:20px;
+     font-family: PT Mono, monospace;
+     background-color:rgb(255, 165, 177);
+     border: 1px solid rgb(68, 0, 51);
+     color: rgb(68, 0, 51);
+   }
+
+
+
+
   footer .footer
-{
-
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-evenly;
-  padding: 50px 0 20px 0;
- background-color: rgb(255, 165, 177);
- border: 1px solid rgb(68, 0, 51);
- box-shadow: 0.3em 0.3em 0.5em rgba(244, 210, 242, 0.3);
- text-shadow: 0.5rem 0.5rem 0.8rem rgb(255, 49, 145);
- font-family: PT Mono, monospace;
- text-align: center;
- font-size: 30px;
-}
-.author
-{
-   margin-right:10px;
-
-}
-.author:hover
-{
-  color:pink;
-}
-.tip:hover
-{
- color:pink;
- cursor:not-allowed;
-}
-
-.logo
-{
-  cursor: pointer;
-  width: 10%;
-  height: 10%;
-  transition: all 1s ease-in-out;
-}
-.logo:hover
-{
-        
-
-        width: 15%;
-        height: 15%;
-        -webkit-transform: rotate(360deg);
-        transform: rotate(360deg);
-        
-}
+  {
+  
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    padding: 30px 0 20px 0;
+   background-color: rgb(255, 165, 177);
+   border: 1px solid rgb(68, 0, 51);
+   box-shadow: 0.3em 0.3em 0.5em rgba(244, 210, 242, 0.3);
+   text-shadow: 0.5rem 0.5rem 0.8rem rgb(255, 49, 145);
+   font-family: PT Mono, monospace;
+   text-align: center;
+   font-size: 30px;
+  }
+  .author
+  {
+     margin-right:10px;
+  
+  }
+  .author:hover
+  {
+    color:pink;
+  }
+  .tip:hover
+  {
+   color:pink;
+   cursor:not-allowed;
+  }
+  
+  .logo
+  {
+    cursor: pointer;
+    width: 10%;
+    height: 10%;
+    transition: all 1s ease-in-out;
+  }
+  .logo:hover
+  {
+          
+  
+          width: 15%;
+          height: 15%;
+          -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+          
+  }
+  
