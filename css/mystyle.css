@@ -32,14 +32,19 @@ body{
   flex-direction: row;
   display: flex;
   justify-content: right;
-  margin-top: 0;
-  margin-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: -20px;
+  margin-right: 20px;
   list-style-type: none;
 }
 .list-icons{
-  width: 24px;
-  height: 24px;
-  
+  border-radius: 100%;
+  margin-left:5px;
+  margin-right:5px;
+}
+.list-icons > a > img{
+  width:30px;
+  height:30px;
 }
 #continut{
   background-color: rgb(255, 196, 204);
@@ -49,7 +54,7 @@ body{
 
 
 #menu-box{
-
+  
   background-color: rgb(255, 165, 177);
   border: 1px solid rgb(68, 0, 51);
   height:70px;
@@ -58,37 +63,157 @@ body{
 }
 
 #button1{
-
-  background-color: rgb(255, 196, 204);
-  color: rgb(211, 100, 159);
-  padding: 12px 25px;
+  font-family: PT Mono, monospace;
+  background-color: rgb(254, 228, 233);
+  margin-left:50px;
+  margin-top:10px;
+  color: rgb(255, 49, 145);
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  margin-right:200px;
+  font-size: 24px;
+  margin-right:100px;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: color 100ms;
+  height:27px;
+  padding: 12px 25px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  vertical-align:auto;
+  line-height:5px;
+  
 }
-  #button2{
+#button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
 
-    background-color: rgb(255, 196, 204);
-    color: rgb(211, 100, 159);
-    padding: 12px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin-right:200px;
+#button1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#button1:hover span {
+  padding-right: 25px;
+}
+
+#button1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+#button2{
+
+  font-family: PT Mono, monospace;
+  background-color: rgb(254, 228, 233);
+  margin-right:100px;
+  margin-top:10px;
+  color: rgb(255, 49, 145);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: color 100ms;
+  height:27px;
+  padding: 12px 25px;
+  transition: all 0.5s;
+  cursor: pointer;
 
 
 }
+
+#button2 span {
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#button2 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#button2:hover span {
+  padding-right: 25px;
+}
+
+#button2:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
 #button3{
 
-  background-color: rgb(255, 196, 204);
-  color: rgb(211, 100, 159);
-  padding: 12px 25px;
+  font-family: PT Mono, monospace;
+  background-color: rgb(254, 228, 233);
+  margin-left:100px;
+  margin-top:10px;
+  color: rgb(255, 49, 145);
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  margin-right:200px;
+  font-size: 24px;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: color 100ms;
+  height:27px;
+  padding: 12px 25px;
+  transition: all 0.5s;
+  cursor: pointer;
+
+}
+
+
+#button3 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#button3 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#button3:hover span {
+  padding-right: 25px;
+}
+
+#button3:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+h1 {
+  background-color: rgb(254, 228, 233);
+  color:rgb(68, 0, 51);
+  border: 3px solid rgb(68, 0, 51);
+  border-radius: 19px;
+  margin-left: 40px;  
+  margin-right: 900px; 
+  
+  padding: 25px;
+  text-align: left;
+  font-family: PT Mono, monospace;
 }
