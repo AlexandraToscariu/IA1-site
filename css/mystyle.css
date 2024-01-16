@@ -11,9 +11,8 @@ body{
 #body-wrapper {
   margin:0 auto;
   width: 1200px;
-  /*height: 410px;*/
-  display: flex; /* Make parent a flex-container */
-  justify-content: center; /* Centers child horizontally */
+  display: flex; 
+  justify-content: center; 
   flex-direction: column;
   }
 
@@ -57,9 +56,31 @@ body{
   
   background-color: rgb(255, 165, 177);
   border: 1px solid rgb(68, 0, 51);
-  height:70px;
+  height:100px;
+  display:flex;
   
   
+}
+
+#button{
+
+  font-family: PT Mono, monospace;
+  background-color: rgb(254, 228, 233);
+  margin-left:50px;
+  margin-top:10px;
+  color: rgb(255, 49, 145);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: color 100ms;
+  height:27px;
+  padding: 12px 25px;
+  transition: all 0.5s;
+  cursor: pointer;
+
 }
 
 #button1{
@@ -85,35 +106,12 @@ body{
   line-height:5px;
   
 }
-#button1 span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
 
-#button1 span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-#button1:hover span {
-  padding-right: 25px;
-}
-
-#button1:hover span:after {
-  opacity: 1;
-  right: 0;
-}
 #button2{
 
   font-family: PT Mono, monospace;
   background-color: rgb(254, 228, 233);
-  margin-right:100px;
+  margin-right:50px;
   margin-top:10px;
   color: rgb(255, 49, 145);
   text-align: center;
@@ -131,38 +129,14 @@ body{
 
 }
 
-#button2 span {
-  text-align: center;
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
 
-#button2 span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-#button2:hover span {
-  padding-right: 25px;
-}
-
-#button2:hover span:after {
-  opacity: 1;
-  right: 0;
-}
 
 
 #button3{
 
   font-family: PT Mono, monospace;
   background-color: rgb(254, 228, 233);
-  margin-left:100px;
+  margin-left:50px;
   margin-top:10px;
   color: rgb(255, 49, 145);
   text-align: center;
@@ -180,40 +154,28 @@ body{
 }
 
 
-#button3 span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
 
-#button3 span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
 
-#button3:hover span {
-  padding-right: 25px;
-}
+#button4{
 
-#button3:hover span:after {
-  opacity: 1;
-  right: 0;
-}
-
-h1 {
-  background-color: rgb(254, 228, 233);
-  color:rgb(68, 0, 51);
-  border: 3px solid rgb(68, 0, 51);
-  border-radius: 19px;
-  margin-left: 40px;  
-  margin-right: 900px; 
-  
-  padding: 25px;
-  text-align: left;
   font-family: PT Mono, monospace;
+  background-color: rgb(254, 228, 233);
+  margin-left:50px;
+  margin-top:10px;
+  color: rgb(255, 49, 145);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: color 100ms;
+  height:27px;
+  padding: 12px 25px;
+  transition: all 0.5s;
+  cursor: pointer;
+
 }
+
+
+

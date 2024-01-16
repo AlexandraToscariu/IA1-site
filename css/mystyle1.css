@@ -1,0 +1,212 @@
+
+body{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top:0px;
+  }
+
+#body-wrapper {
+    margin:0 auto;
+    width: 1200px;
+    display: flex; 
+    justify-content: center; 
+    flex-direction: column;
+    }
+  
+  #patrat{
+  
+    margin-top:25px;
+    background-image: url("bkg.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    text-align: center;
+      color:rgb(68, 0, 51);
+    border:1px solid rgb(142, 0, 113);
+    width: 100%;
+  }
+  #icons{
+    flex-direction: row;
+    display: flex;
+    justify-content: right;
+    margin-top: 10px;
+    margin-bottom: -20px;
+    margin-right: 20px;
+    list-style-type: none;
+  }
+  .list-icons{
+    border-radius: 100%;
+    margin-left:5px;
+    margin-right:5px;
+  }
+  .list-icons > a > img{
+    width:30px;
+    height:30px;
+  }
+  #continut{
+    background-color: rgb(255, 196, 204);
+    width: 100%;
+    border: 1px solid rgb(68, 0, 51);
+  }
+  
+  
+  #menu-box{
+    
+    background-color: rgb(255, 165, 177);
+    border: 1px solid rgb(68, 0, 51);
+    height:100px;
+    display:flex;
+    
+    
+  }
+  
+  #button{
+  
+    font-family: PT Mono, monospace;
+    background-color: rgb(254, 228, 233);
+    margin-left:50px;
+    margin-top:10px;
+    color: rgb(255, 49, 145);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: color 100ms;
+    height:27px;
+    padding: 12px 25px;
+    transition: all 0.5s;
+    cursor: pointer;
+  
+  }
+  
+  #button1{
+    font-family: PT Mono, monospace;
+    background-color: rgb(254, 228, 233);
+    margin-left:50px;
+    margin-top:10px;
+    color: rgb(255, 49, 145);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin-right:100px;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: color 100ms;
+    height:27px;
+    padding: 12px 25px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    vertical-align:auto;
+    line-height:5px;
+    
+  }
+  
+  #button2{
+  
+    font-family: PT Mono, monospace;
+    background-color: rgb(254, 228, 233);
+    margin-right:50px;
+    margin-top:10px;
+    color: rgb(255, 49, 145);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: color 100ms;
+    height:27px;
+    padding: 12px 25px;
+    transition: all 0.5s;
+    cursor: pointer;
+  
+  
+  }
+  
+  
+  
+  
+  #button3{
+  
+    font-family: PT Mono, monospace;
+    background-color: rgb(254, 228, 233);
+    margin-left:50px;
+    margin-top:10px;
+    color: rgb(255, 49, 145);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: color 100ms;
+    height:27px;
+    padding: 12px 25px;
+    transition: all 0.5s;
+    cursor: pointer;
+  
+  }
+  
+  
+  
+  
+  #button4{
+  
+    font-family: PT Mono, monospace;
+    background-color: rgb(254, 228, 233);
+    margin-left:50px;
+    margin-top:10px;
+    color: rgb(255, 49, 145);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: color 100ms;
+    height:27px;
+    padding: 12px 25px;
+    transition: all 0.5s;
+    cursor: pointer;
+  
+  }
+
+  #container-cercuri
+  {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+    justify-content: space-around;
+    margin-bottom: 40px;
+
+  }
+  .cerc{
+    border-radius:100% 100% 0% 0%;
+    width: 100px;
+    height: 100px;
+  }
+
+  .cerc1
+  {
+    background-color: red;
+  }
+  .cerc2
+  {
+    background-color: blue;
+  }
+  .cerc3
+  {
+    background-color: green;
+  }
+  
+  .cerc-jos
+  {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+  }
