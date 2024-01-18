@@ -1,7 +1,7 @@
-const input = document.querySelector("input");
-const constguess = document.querySelector(".guess");
-const checkButton = document.querySelector("button");
-const remainChances = document.querySelector(".chances");
+const input = document.querySelector("input"),
+  guess = document.querySelector(".guess"),
+  checkButton = document.querySelector("button"),
+  remainChances = document.querySelector(".chances");
 
 input.focus();
 
