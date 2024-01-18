@@ -114,7 +114,41 @@ header{
   width: 30px;
   height: 30px;
 }
-  
+
+  #despre-container{
+  margin-top:40px;
+  margin-left:40px;
+  margin-right:40px;
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: rgb(255, 165, 177);
+
+}
+
+#despre-container img{
+  border-radius: 100%;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  margin-top:100px;
+  margin-bottom: 100px;
+  margin-right: 20px;
+  margin-left:20px;
+
+}
+.text-grid{
+  margin-top:100px;
+  margin-bottom: 100px;
+  background-color: rgba(0,0,0,0.1);
+  box-shadow: 0.3em 0.3em 0.5em rgba(0,0,0,0.3   );
+  text-shadow: 0.5rem 0.5rem 0.8rem rgba(0,0,0,0.5);
+  color:purple;
+  font-size: 15px;
+  padding: 20px 30px 50px 30px;
+  width: 80%;
+  max-width: 978px;
+}
+
 .footer
 {
   margin-bottom: 20px;
