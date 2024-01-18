@@ -29,7 +29,7 @@ checkButton.addEventListener("click", () => {
     guess.style.color = "#DE0611";
   }
   if (chance == 0) {
-    [checkButton.textContent, input.disabled, inputValue] = ["Să mai jucăm!", true, ""];
+    [checkButton.textContent, input.disabled, input.value] = ["Să mai jucăm!", true, ""];
     [guess.textContent, guess.style.color] = ["Ai pierdut!", "#DE0611"];
   }
   if (chance < 0) {
