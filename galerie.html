@@ -6,7 +6,7 @@
 
 	<title>PurrfectCanvas</title>
 
-	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/galerie.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<link rel="icon" type="image/x-icon" href="./imagini/favicon.png">
@@ -33,16 +33,16 @@
 		<img src="./imagini/headerBG.png" alt="imagine header">
 
 		<section id="menu-box">
-			<a class="button" href="#header">
-				<img class="menu-icon" src="imagini/unicornSelectat.png">
+			<a class="button" href="/index.html">
+				<img class="menu-icon" src="imagini/unicornStanga.png">
 				<span>Acasă</span>
 			</a>
 			<a class="button" target="_blank" href="./animalute.html">
-				<img class="menu-icon" src="imagini/unicornDreapta.png">
+				<img class="menu-icon" src="imagini/unicornStanga.png">
 				<span>Animăluțe</span>
 			</a>
-			<a class="button" target="_blank" href="./galerie.html">
-				<img class="menu-icon" src="imagini/unicornDreapta.png">
+			<a class="button" target="_blank" href="#header">
+				<img class="menu-icon" src="imagini/unicornSelectat.png">
 				<span>Galerie</span>
 			</a>
 			<a class="button" target="_blank" href="./pagina3.html">
@@ -56,32 +56,40 @@
 		</section>
 	</header>
 
-	<section id="continut">
-
-		<h1>Acasă</h1>
-		<div class="acasa">
-			<h1>Bine ai venit pe "PurrfectCanvas" !</h1>
-			<h2>Dacă accesați meniul paginii, site-ul vă va purta pe diferite pagini:</h2>
-			<h2><a href="#header">Acasă</a> de asemenea index al paginii web, aceasta este pagina default a siteului,
-				iar de aici puteți să aflați informații despre componența siteului.</h2>
-			<h2><a href="./animalute.html" target="_blank">Animăluțe</a> o pagină cu un mic sumar despre animăluțele
-				mele.
-			</h2>
-			<h2><a href="./galerie.html" target="_blank">Galerie</a> o mini galerie
-				cu desenele mele sau alte
-				implicări artistice.</h2>
-			<h2><a href="./pagina3.html" target="_blank">Despre mine</a> va conține mai multe
-				informații despre mine
-				și activitatea mea în Best Iași, implicit BestRo.</h2>
-			<h2><a href="./pagina4.html" target="_blank">Jocuri</a> un joc în JavaScript.
-			</h2>
-		</div>
+	<section id="text">
+		<h1>Galerie de Artă</h1>
+		<article id="descriere">
+			<p>Arta ne este plăcută tuturor, iar eu am avut o înclinație pentru aceasta încă de foarte mică.
+				Toate acestea se datorează tatălui meu. Încă și acum îmi amintesc cum participam la concursuri de desen
+				în școala primară, dar nu orice fel de concursuri,erau între mine și tata.
+				Mereu voiam să excelăm ca și el. Deși nici în ziua de azi nu am reușit să ajung la nivelul dorit, nu voi
+				lăsa arta în urmă niciodată. Aici veți găsi câteva dintre proiectele mele/desene.</p>
+		</article>
 	</section>
+
+	<div class="container">
+		<div class="carousel-view">
+
+			<!-- Left Button -->
+			<button id="prev-btn" class="prev-btn"> </button>
+
+			<!-- List Container -->
+			<div id="item-list" class="item-list">
+				<!-- Items -->
+				<img id="item" class="item" src="imagini/unicornDreapta.png" />
+				<img id="item" class="item" src="imagini/unicornSelectat.png" />
+			</div>
+
+			<!-- Right Button -->
+			<button id="next-btn" class="next-btn"> </button>
+		</div>
+	</div>
+
 
 	<footer>
 		<div class="footer">
 			<div class="author">Author: Alexandra ©2024</div>
-			<div class="tip">Let your creativity juices flow!</div>
+			<div class="tip">TIP: Sketching is the gentle dance between imagination and pencil.</div>
 			<img class="logo" src="imagini/footerLogo.png" alt="logo">
 		</div>
 	</footer>
