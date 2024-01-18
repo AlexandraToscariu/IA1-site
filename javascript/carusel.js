@@ -1,4 +1,4 @@
-const carouselItems = document.querySelectorAll('.carousel-item');
+const carouselItems = document.querySelectorAll('.imagini');
 let currentIndex = 0;
 
 function showSlide(index) {
